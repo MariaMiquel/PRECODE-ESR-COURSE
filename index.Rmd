@@ -38,7 +38,7 @@ knitr::include_graphics("images/hopr_aa01.png")
 ```
 
 ```{block2, r_version, type='rmdimportant'}
-**Please install the latest R release (2020-10-10, Bunny-Wunnies Freak Out).**
+**Please make sure that R Version >=3.6.1 is installed on your local machine.**
 ```
 
 ## Installing R and Bioconductor packages
