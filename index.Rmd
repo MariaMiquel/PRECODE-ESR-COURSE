@@ -1,5 +1,5 @@
 --- 
-title: "RNAseq Analysis - an introduction"
+title: "PRECODE ESR Bioinformatics Course"
 author: "Peter J. Bailey"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
