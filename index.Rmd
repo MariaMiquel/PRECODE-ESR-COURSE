@@ -26,10 +26,10 @@ To complete this course you will need to install [R](https://cloud.r-project.org
 **Please make sure that R Version >=3.6.1 is installed on your local machine.**
 ```
 
-[__Hands-on programming with R__](https://rstudio-education.github.io/hopr/) is an excellent open source reference for learning the basics of R and can be used as a companion to this course. Please also find additional open source learning resources below that can be used as companions to this course.
+[__Hands-on programming with R__](https://rstudio-education.github.io/hopr/) is an excellent open source reference for learning the basics of R and can be used as a companion to this course. Please also find additional learning resources [below](#learning_resources) that can be used as companions to this course.
 
 
-[__RStudio__](https://rstudio.com/) is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
+We will use RStudio in this course. [__RStudio__](https://rstudio.com/) is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
 
 ```{r layout, echo = FALSE, fig.cap = "The RStudio IDE for R."}
 knitr::include_graphics("images/hopr_aa01.png")
@@ -47,7 +47,7 @@ You can install a package from CRAN by using `install.packages()`. To install `g
 install.packages("ggplot2")
 ```
 
-If you are prompted to select a download mirror use the first choice, [https://cloud.r-project.org/](https://cloud.r-project.org/)
+If you are prompted to select a download mirror use the first choice, [https://cloud.r-project.org/.](https://cloud.r-project.org/)
 
 You can also install multiple packages at once by passing the function a vector of package names:
 
@@ -82,13 +82,22 @@ BiocManager::install(c("DESeq2", "ggpubr", "ComplexHeatmap",
 
 Each Bioconductor package contains at least one vignette, a document that provides a task-oriented description of package functionality. Vignettes contain executable examples and are intended to be used interactively.
 
-You can access the PDF version of a vignette for any installed package from inside R using the browseVignettes() function.
+You can access the PDF version of a vignette for any installed package from inside R using the `browseVignettes()` function.
 
 To view documentation about the `DESeq2` package you can use the following R function:
 
 ```{r eval=FALSE}
 browseVignettes("DESeq2")
 ```
+
+## Loading R and Bioconductor packages
+
+To load an R package that has been installed on your local machine use the `library()` function. For example, to load the `ggplot2` package run:
+
+```{r eval=FALSE}
+library(ggplot2)
+```
+
 
 
 ## Learning resources {#learning_resources}

@@ -137,7 +137,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#installing-r-and-rstudio"><i class="fa fa-check"></i><b>1.1</b> Installing R and RStudio</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#installing-r-and-bioconductor-packages"><i class="fa fa-check"></i><b>1.2</b> Installing R and Bioconductor packages</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#learning_resources"><i class="fa fa-check"></i><b>1.3</b> Learning resources</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#loading-r-and-bioconductor-packages"><i class="fa fa-check"></i><b>1.3</b> Loading R and Bioconductor packages</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#learning_resources"><i class="fa fa-check"></i><b>1.4</b> Learning resources</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
 <ul>
@@ -182,8 +183,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="rmdimportant">
 <strong>Please make sure that R Version &gt;=3.6.1 is installed on your local machine.</strong>
 </div>
-<p><a href="https://rstudio-education.github.io/hopr/"><strong>Hands-on programming with R</strong></a> is an excellent open source reference for learning the basics of R and can be used as a companion to this course. Please also find additional open source learning resources below that can be used as companions to this course.</p>
-<p><a href="https://rstudio.com/"><strong>RStudio</strong></a> is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</p>
+<p><a href="https://rstudio-education.github.io/hopr/"><strong>Hands-on programming with R</strong></a> is an excellent open source reference for learning the basics of R and can be used as a companion to this course. Please also find additional learning resources <a href="index.html#learning_resources">below</a> that can be used as companions to this course.</p>
+<p>We will use RStudio in this course. <a href="https://rstudio.com/"><strong>RStudio</strong></a> is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</p>
 <div class="figure"><span id="fig:layout"></span>
 <img src="images/hopr_aa01.png" alt="The RStudio IDE for R." width="782" />
 <p class="caption">
@@ -196,7 +197,7 @@ Figure 1.1: The RStudio IDE for R.
 <p>CRAN (the Comprehensive R Archive Network) is a repository of packages for R, and it is mirrored on many servers around the world. It is the default repository system used by R.</p>
 <p>You can install a package from CRAN by using <code>install.packages()</code>. To install <code>ggplot2</code> use:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;ggplot2&quot;</span>)</span></code></pre></div>
-<p>If you are prompted to select a download mirror use the first choice, <a href="https://cloud.r-project.org/">https://cloud.r-project.org/</a></p>
+<p>If you are prompted to select a download mirror use the first choice, <a href="https://cloud.r-project.org/">https://cloud.r-project.org/.</a></p>
 <p>You can also install multiple packages at once by passing the function a vector of package names:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="index.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;tidyverse&quot;</span>))</span></code></pre></div>
 <p>Once you have R/RStudio up and running please also install Bioconductor. Bioconductor is a repository of R packages for analyzing genomic data!</p>
@@ -210,12 +211,17 @@ Figure 1.1: The RStudio IDE for R.
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="index.html#cb5-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(<span class="st">&quot;DESeq2&quot;</span>, <span class="st">&quot;ggpubr&quot;</span>, <span class="st">&quot;ComplexHeatmap&quot;</span>,</span>
 <span id="cb5-2"><a href="index.html#cb5-2" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&quot;circlize&quot;</span>, <span class="st">&quot;clusterProfiler&quot;</span>))</span></code></pre></div>
 <p>Each Bioconductor package contains at least one vignette, a document that provides a task-oriented description of package functionality. Vignettes contain executable examples and are intended to be used interactively.</p>
-<p>You can access the PDF version of a vignette for any installed package from inside R using the browseVignettes() function.</p>
+<p>You can access the PDF version of a vignette for any installed package from inside R using the <code>browseVignettes()</code> function.</p>
 <p>To view documentation about the <code>DESeq2</code> package you can use the following R function:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="index.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">browseVignettes</span>(<span class="st">&quot;DESeq2&quot;</span>)</span></code></pre></div>
 </div>
-<div id="learning_resources" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Learning resources</h2>
+<div id="loading-r-and-bioconductor-packages" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Loading R and Bioconductor packages</h2>
+<p>To load an R package that has been installed on your local machine use the <code>library()</code> function. For example, to load the <code>ggplot2</code> package run:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="index.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div>
+</div>
+<div id="learning_resources" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Learning resources</h2>
 <p>There are a multitude of learning resources for the R programming language. Here are just a few noteworthy examples that are entirely open source!!!</p>
 <ul>
 <li><p><a href="https://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf">Wim P. Krijnen (2009) Applied Statistics for Bioinformatics using R</a></p></li>

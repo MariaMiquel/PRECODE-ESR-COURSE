@@ -2,6 +2,7 @@ fig:layout
 prerequisites
 installing-r-and-rstudio
 installing-r-and-bioconductor-packages
+loading-r-and-bioconductor-packages
 learning_resources
 intro
 course-outline
