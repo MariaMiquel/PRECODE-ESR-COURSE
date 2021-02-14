@@ -3,12 +3,20 @@
 
 ## Course outline
 
-The course is divided into 2 parts. [PART 1](#part1) will teach you the basics of R programming, computational statistics and its application in solving real world biological problems. [PART 2](#part2) will teach you how to analyse RNAseq data and will provide informatic workflows that you can use in your research.
+The course is divided into 2 parts. [PART 1](#part1) will teach you the basics of R programming, computational statistics and its application in solving real world biological problems. [PART 2](#part2) will teach you how to analyse RNAseq data and will provide informatic workflows that you can use in your current research.
 
+```{block2, course_panic, type='rmdnote'}
+**This course is extremely condensed and you are not expected to complete all tasks before or during the 3 day meeting. We will work through coded examples together. Additional tutorials may be scheduled after meeting close, if ESRs feel that this is necessary!**
+```
 
 ### PART 1 {#part1}
 
-PART 1 is provided in a separate workbook [__Applications of Computational Statistics__](course/PRECODE Descriptive Stats Course.pdf)
+PART 1 is provided in a separate workbook [__Applications of Computational Statistics__](course/PRECODE Descriptive Stats Course.pdf).
+
+
+```{block2, course_reminder, type='rmdimportant'}
+**Students are encouraged to at least go through PART 1 before the commencement of the course.**
+```
 
 
 By the end of PART 1, you should be able to:
@@ -18,11 +26,6 @@ By the end of PART 1, you should be able to:
   - Mine and explore biological data sets
   - Process microarray data and perform statistical analysis
   - Be able to use the R statistical programming language 
-  
-  
-```{block2, course_reminder, type='rmdimportant'}
-**Students are encouraged to complete or at least go through PART 1 before the commencement of the course.**
-```
   
   
 The following topics are covered in PART 1:
@@ -36,7 +39,7 @@ The following topics are covered in PART 1:
 
 2. Probability distribution
     - Probability distribution on discrete random variables (binomial, Poisson)
-    - Probability distributon on continuous random variables (normal, z, t-, chi-squared, F)
+    - Probability distribution on continuous random variables (normal, z, t-, chi-squared, F)
 
 3. Statistical tests
     - Hypothesis testing
@@ -110,32 +113,27 @@ The following topics are covered in the practical component of PART 1:
 
 __Assignments__
 
-1.	[__Assignment 1__](course/Assignment1-R.pdf)  Assessing R skills + interpretation of statistical tests - Starts in P1 (covers up to P3) 
+1.	[__Assignment 1__](course/Assignment1-R.pdf)  Assessing R skills & interpretation of statistical tests - Starts in P1 (covers up to P3) 
 
 2.	__Assignment 2 (Optional)__: Review and explanation of statistical analysis from a scientific article of the student’s choice . The student should choose a recently published scientific article and explain the aim of the study and how the statistical analyses were performed.
 
 
-3.	[__Assignment 3__](course/assignment3-students.pdf) Assessing statistical analysis of one biological data set. This assignment will be broken into different exercises covering the content of the pracs P4 to P8 and will be handed at each prac. Starts in P4 (covers up to P8) 
-
-
+3.	[__Assignment 3__](course/assignment3-students.pdf) Assessing statistical analyses using data described in [__Comprehensive molecular portraits of human breast tumours__](course/nature11412.pdf). This assignment will be broken into different exercises covering the content of the pracs P4 to P8 and will be handed at each prac. Starts in P4 (covers up to P8) 
 
 
 ### PART 2 {#part2}
 
-
-This part of the course will provide steps for the analysis of RNASeq data. To bring this part of the course into real world focus we will re-analyse RNAseq data published in [Brunton et al. HNF4A and GATA6 Loss Reveals Therapeutically Actionable Subtypes in Pancreatic Cancer. Cell Reports 2020](https://doi.org/10.1016/j.celrep.2020.107625)
+This part of the course will provide steps for the analysis of RNASeq data. To bring this part of the course into real world focus we will re-analyse RNAseq data published in [__Brunton et al. HNF4A and GATA6 Loss Reveals Therapeutically Actionable Subtypes in Pancreatic Cancer. Cell Reports 2020__](https://doi.org/10.1016/j.celrep.2020.107625)
 
 ```{block2, read_reminder, type='rmdimportant'}
 **Students should have read Brunton et al and be familiar with the analyses performed before therein the start of the course.**
 ```
 
-
-
+PART 2 of this course will be delivered _live_. We will work through the coded examples together!
 
 By the end of PART 2, you should be able to:
 
   - Use the [nf-core/rnaseq](https://nf-co.re/rnaseq) bioinformatic workflow to map raw RNAseq reads, assess RNAseq QC and generate count files for downstream analysis
-  - Use Bioconductor package DESeq2
   - Perform PCA/Hierarchical clustering of normalized RNAseq data
   - Perform Differential Gene Expression analysis
   - Generate publication quality heatmaps and statistical plots
@@ -143,8 +141,4 @@ By the end of PART 2, you should be able to:
   - Subtype PDAC using pre-defined transcriptional signatures
 
 
-PART 2 comprises 3 major main sections:
 
-1. RNASeq Analysis : Using the nf-core/rnaseq pipeline
-    - 
-2. RNASeq Analysis:
