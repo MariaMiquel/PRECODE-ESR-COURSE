@@ -22,6 +22,513 @@
             "publisher-place": "Boca Raton, Florida",
             "title": "Dynamic documents with R and knitr",
             "type": "book"
+        },
+        {
+            "URL": "https://www.R-project.org/",
+            "author": [
+                {
+                    "literal": "R Core Team"
+                }
+            ],
+            "id": "R-base",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "R Foundation for Statistical Computing",
+            "publisher-place": "Vienna, Austria",
+            "title": "R: A language and environment for statistical computing",
+            "title-short": "R",
+            "type": "book"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=bookdown",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "id": "R-bookdown",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "R package version 0.21",
+            "title": "Bookdown: Authoring books and technical documents with r markdown",
+            "title-short": "Bookdown",
+            "type": "book"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=circlize",
+            "author": [
+                {
+                    "family": "Gu",
+                    "given": "Zuguang"
+                }
+            ],
+            "id": "R-circlize",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 0.4.6",
+            "title": "Circlize: Circular visualization",
+            "title-short": "Circlize",
+            "type": "book"
+        },
+        {
+            "URL": "https://guangchuangyu.github.io/software/clusterProfiler",
+            "author": [
+                {
+                    "family": "Yu",
+                    "given": "Guangchuang"
+                }
+            ],
+            "id": "R-clusterProfiler",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 3.12.0",
+            "title": "clusterProfiler: Statistical analysis and visualization of functional profiles for genes and gene clusters",
+            "title-short": "clusterProfiler",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Gu",
+                    "given": "Zuguang"
+                }
+            ],
+            "id": "R-ComplexHeatmap",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "https://github.com/jokergoo/ComplexHeatmap, https://jokergoo.github.io/ComplexHeatmap-reference/book/",
+            "title": "ComplexHeatmap: Make complex heatmaps",
+            "title-short": "ComplexHeatmap",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/mikelove/DESeq2",
+            "author": [
+                {
+                    "family": "Love",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Anders",
+                    "given": "Simon"
+                },
+                {
+                    "family": "Huber",
+                    "given": "Wolfgang"
+                }
+            ],
+            "id": "R-DESeq2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 1.24.0",
+            "title": "DESeq2: Differential gene expression analysis based on the negative binomial distribution",
+            "title-short": "DESeq2",
+            "type": "book"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=ggpubr",
+            "author": [
+                {
+                    "family": "Kassambara",
+                    "given": "Alboukadel"
+                }
+            ],
+            "id": "R-ggpubr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 0.2.1",
+            "title": "Ggpubr: ’ggplot2’ based publication ready plots",
+            "title-short": "Ggpubr",
+            "type": "book"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=knitr",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "id": "R-knitr",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "R package version 1.26",
+            "title": "Knitr: A general-purpose package for dynamic report generation in r",
+            "title-short": "Knitr",
+            "type": "book"
+        },
+        {
+            "URL": "https://CRAN.R-project.org/package=rmarkdown",
+            "author": [
+                {
+                    "family": "Allaire",
+                    "given": "JJ"
+                },
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                },
+                {
+                    "family": "McPherson",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Luraschi",
+                    "given": "Javier"
+                },
+                {
+                    "family": "Ushey",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Atkins",
+                    "given": "Aron"
+                },
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Joe"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                },
+                {
+                    "family": "Iannone",
+                    "given": "Richard"
+                }
+            ],
+            "id": "R-rmarkdown",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "R package version 2.6",
+            "title": "Rmarkdown: Dynamic documents for r",
+            "title-short": "Rmarkdown",
+            "type": "book"
+        },
+        {
+            "URL": "https://github.com/rstudio/bookdown",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "id": "bookdown2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1138700109",
+            "publisher": "Chapman; Hall/CRC",
+            "publisher-place": "Boca Raton, Florida",
+            "title": "Bookdown: Authoring books and technical documents with R markdown",
+            "title-short": "Bookdown",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Gu",
+                    "given": "Zuguang"
+                },
+                {
+                    "family": "Gu",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Eils",
+                    "given": "Roland"
+                },
+                {
+                    "family": "Schlesner",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Brors",
+                    "given": "Benedikt"
+                }
+            ],
+            "container-title": "Bioinformatics",
+            "id": "circlize2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "2811-2812",
+            "title": "Circlize implements and enhances circular visualization in r",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
+            "DOI": "10.1089/omi.2011.0118",
+            "PMID": "22455463",
+            "author": [
+                {
+                    "family": "Yu",
+                    "given": "Guangchuang"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Li-Gen"
+                },
+                {
+                    "family": "Han",
+                    "given": "Yanyan"
+                },
+                {
+                    "family": "He",
+                    "given": "Qing-Yu"
+                }
+            ],
+            "container-title": "OMICS: A Journal of Integrative Biology",
+            "id": "clusterProfiler2012",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "284-287",
+            "title": "clusterProfiler: An r package for comparing biological themes among gene clusters",
+            "title-short": "clusterProfiler",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "author": [
+                {
+                    "family": "Gu",
+                    "given": "Zuguang"
+                },
+                {
+                    "family": "Eils",
+                    "given": "Roland"
+                },
+                {
+                    "family": "Schlesner",
+                    "given": "Matthias"
+                }
+            ],
+            "container-title": "Bioinformatics",
+            "id": "ComplexHeatmap2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "title": "Complex heatmaps reveal patterns and correlations in multidimensional genomic data",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1186/s13059-014-0550-8",
+            "author": [
+                {
+                    "family": "Love",
+                    "given": "Michael I."
+                },
+                {
+                    "family": "Huber",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Anders",
+                    "given": "Simon"
+                }
+            ],
+            "container-title": "Genome Biology",
+            "id": "DESeq22014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "550",
+            "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+            "type": "article-journal",
+            "volume": "15"
+        },
+        {
+            "URL": "https://yihui.name/knitr/",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "edition": "2nd",
+            "id": "knitr2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1498716963",
+            "publisher": "Chapman; Hall/CRC",
+            "publisher-place": "Boca Raton, Florida",
+            "title": "Dynamic documents with R and knitr",
+            "type": "book"
+        },
+        {
+            "URL": "http://www.crcpress.com/product/isbn/9781466561595",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                }
+            ],
+            "container-title": "Implementing reproducible computational research",
+            "editor": [
+                {
+                    "family": "Stodden",
+                    "given": "Victoria"
+                },
+                {
+                    "family": "Leisch",
+                    "given": "Friedrich"
+                },
+                {
+                    "family": "Peng",
+                    "given": "Roger D."
+                }
+            ],
+            "id": "knitr2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "note": "ISBN 978-1466561595",
+            "publisher": "Chapman; Hall/CRC",
+            "title": "Knitr: A comprehensive tool for reproducible research in R",
+            "title-short": "Knitr",
+            "type": "chapter"
+        },
+        {
+            "URL": "https://bookdown.org/yihui/rmarkdown",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                },
+                {
+                    "family": "Allaire",
+                    "given": "J. J."
+                },
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                }
+            ],
+            "id": "rmarkdown2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "note": "ISBN 9781138359338",
+            "publisher": "Chapman; Hall/CRC",
+            "publisher-place": "Boca Raton, Florida",
+            "title": "R markdown: The definitive guide",
+            "title-short": "R markdown",
+            "type": "book"
+        },
+        {
+            "URL": "https://bookdown.org/yihui/rmarkdown-cookbook",
+            "author": [
+                {
+                    "family": "Xie",
+                    "given": "Yihui"
+                },
+                {
+                    "family": "Dervieux",
+                    "given": "Christophe"
+                },
+                {
+                    "family": "Riederer",
+                    "given": "Emily"
+                }
+            ],
+            "id": "rmarkdown2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "ISBN 9780367563837",
+            "publisher": "Chapman; Hall/CRC",
+            "publisher-place": "Boca Raton, Florida",
+            "title": "R markdown cookbook",
+            "type": "book"
         }
     ],
     "project_biblios": [

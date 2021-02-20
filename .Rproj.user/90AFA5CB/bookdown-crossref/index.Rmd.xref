@@ -1,2 +1,7 @@
 h1:prerequisites Prerequisites
+h2:installing-r-and-rstudio Installing R and RStudio
+fig:layout The RStudio IDE for R.
+h2:installing-r-and-bioconductor-packages Installing R and Bioconductor packages
+h2:loading-r-and-bioconductor-packages Loading R and Bioconductor packages
+h2:learning_resources Learning resources
 

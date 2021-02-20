@@ -28,7 +28,7 @@ if (identical(knitr:::pandoc_to(), 'latex')) {
   knitr::knit_hooks$set(plot = knitr::hook_plot_tex)
 }
 
-knit::knit_hooks$set(small.mar = function(before, options, envir) {
+knitr::knit_hooks$set(small.mar = function(before, options, envir) {
     if (before) par(mar = c(4.5, 4.5, 1, .5))  # smaller margin on top and right
 })
 

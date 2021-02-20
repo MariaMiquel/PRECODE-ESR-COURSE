@@ -1,4 +1,7 @@
 h1:intro Introduction
-fig:nice-fig Here is a nice figure!
-tab:nice-tab Here is a nice table!
+h2:course-outline Course outline
+h3:part1 PART 1
+h4:practicals Practicals
+h4:assessment Assessment
+h3:part2 PART 2
 

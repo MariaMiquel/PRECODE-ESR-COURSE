@@ -1,3 +1,9 @@
+```{r echo = FALSE}
+# This block needs cache=FALSE to set fig.width and fig.height, and have those
+# persist across cached builds.
+source("utils.R", local = TRUE)
+```
+
 # Introduction {#intro}
 
 
@@ -7,6 +13,8 @@ The course is divided into 2 parts. [PART 1](#part1) will teach you the basics o
 
 ```{block2, course_panic, type='rmdnote'}
 **This course is extremely condensed and you are not expected to complete all tasks before or during the 3 day meeting. We will work through coded examples together. Additional tutorials may be scheduled after meeting close, if ESRs feel that this is necessary!**
+  
+**Please also note that this course material comprises embeded video content which is best viewed using a CHROME web browser**
 ```
 
 ### PART 1 {#part1}
